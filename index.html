@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta property="og:title" content="Jay-Z's Producers"/>
+		<meta property="og:description" content="visualizations of Jay-Z's relationship with his producers"/> 
+		<title>Jay-Z's producers</title>
+	  	<link id="favicon" rel="shortcut icon" href="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=63736192" />
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blue.css">
+ 
+
+<!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" />
+<![endif]-->
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+    
+    
+		<body>
+		<div id="header">
+			<div class="sharing">
+				<a class='fb' target='_blank' href='http://www.facebook.com/sharer.php?u=http://pow123.github.io/jayzproducers'> </a>
+				<a class='tw' href='https://twitter.com/share?url=http://pow123.github.io/jayzproducers' target='_blank'> </a>
+			</div>
+		</div>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section class="landing" data-background="./img/jayzbackground.jpg">
+					<div class="introText">
+                        <br /><br /><h1 class="hugeNumber">Jay Z</h1><br /><br />
+                        <h1><font color="black">Impact of <br /> his top </font><br /><strong>producers and samples</strong></h1>
+						<h2>View interactive displays next.</h2>
+                        <a href="mailto:peace@uta.edu"><img src="./img/powpow.JPG" height="75"/></a>&nbsp;<a href="mailto:kenton.rambsy@uta.edu"><img src="./img/rambsy.JPG" height="75"/></a>
+					</div>
+					<div class="nextButton"><a href="#" actual-slide="0"> </a></div>
+				</section>
+                <section class="content" data-background="./img/Jay-Z_Ye_square.jpg">
+                    <h1 class="hugeNumber"> Sales</h1>
+<div style="position: relative; width: 250px;">
+  <div style="position: absolute; top: 10; right: 0; width: 300px; text-align:right;">
+      <h1>Which producer has the greatest impact on sales?</h1></div></div>
+                    <iframe width="1200" height="650" frameborder="0" scrolling="no"  src="https://plot.ly/~POW123/20.embed?link=false&modebar=false"></iframe></section>
+                <section class="content" data-background="./img/jay_fire.jpg">
+                    <h1 class="hugeNumber"> Samples</h1>
+                    <iframe width="1000" height="650" frameborder="0" scrolling="no" src="https://plot.ly/~POW123/22.embed"></iframe>
+                </section>
+                				<section class="content">
+                    <h1 class="hugeNumber"> Contact</h1>
+                    <h1>Peace Ossom Williamson - <a href="mailto:peace@uta.edu">peace@uta.edu</a> · <a href="https://twitter.com/123POW">@123POW</a></h3><br /><br />
+                                    All content developed, including source code for the visualizations, are available CC-BY-SA from <a href="http://github.com/pow123/jayzproducers.git">http://github.com/pow123/jayzproducers.git</a><br /><br /><br /><br />
+                                    <small><b>Images</b><br />
+                                    <ul>
+                                        <li>Jay Z Sky - 1920x1080hdwallpapers.com</li>
+                                        <li>Jay Z, Kanye in concert - User: U2soul at Wikimedia Commons</li>
+                                        <li>Jay Z, alone in concert - User: U2soul at Wikimedia Commons</li>
+                                        </ul></small>
+                </section>
+			</div>
+		</div>
+
+		<div id="timeline">
+			<ul></ul>
+		</div>
+		<div id="cursorsThumbnail"></div>
+
+
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+                slideNumber: true,
+                loop: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
