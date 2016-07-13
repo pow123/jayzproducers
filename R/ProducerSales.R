@@ -1,6 +1,3 @@
-Sys.setenv("plotly_username"="pow123")
-Sys.setenv("plotly_api_key"="4jprfeu1js")
-
 f1 <- list(
        family = "Arial, sans-serif",
        size = 25,
